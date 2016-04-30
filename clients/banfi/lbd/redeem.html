@@ -1,0 +1,174 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Little Black Dress</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="responsive.css" rel="stylesheet" type="text/css">
+        <link href="dev.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    </head>
+    <body>
+        <input type="hidden" id="hdn" value="/"/>
+        <!--header part start-->
+            <header class="header_container">
+                <div class="auto_container">
+                    <div class="header_logo"><a href="index.html"><img id="granlogo" src="images/lbd_logo.jpg" alt=""></a></div>
+                    <div class="header_nav">
+                        <button class="nav-button">Menu</button>
+                        <ul class="primary-nav">
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="redeem.html">Redeem</a></li>
+                            <li><a href="index.html#two">How To Get Started</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        <div class="auto_container">
+          <div class="contant_container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="find-offers-div">
+                <h1>Redeem</h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="categoryitems" id="three">
+                    <!--register part start-->
+                    <div class="register_container">
+                        <div class="register_form hd">
+                            <div class="register_form_in">
+                                <div id="updateCopy">
+                                    <div id="spinner" class="sp`inner" style="display:none"></div>
+                                        <form action="/Frontera/Register" data-ajax="true" data-ajax-begin="disableSubmitButton" data-ajax-failure="error" data-ajax-loading="#spinner" data-ajax-method="POST" data-ajax-success="enableSubmitButton();successUpdate(data,&#39;#updateCopy&#39;);" id="form_login" method="post"><input name="__RequestVerificationToken" type="hidden" value="0Vuni9TSTOMk95sfhmfiaVjExPB6bCkfxgNPEd12cib4d5RAoCOlgDsm-yBMwrh4Seac6eso2hZt3KgLU3X6PGq31-7gCwUVCBEbxqNrcIk1" />       
+                                        <p>*All fields are mandatory.</p>
+                                        <div class="register_form_outer">
+                                            <input data-val="true" data-val-number="The field RewardId must be a number." data-val-required="The RewardId field is required." id="RewardId" name="RewardId" type="hidden" value="1"/>
+                                            <input class="text_input" data-val="true" data-val-length="First name may not be longer than 100 characters" data-val-length-max="100" data-val-regex="First name must contain characters and spaces only" data-val-regex-pattern="^[a-zA-Z ]+$" data-val-required="Error: First name must be provided" id="FirstName" maxlength="100" name="FirstName" placeholder="First Name" type="text" value="" />
+                                            <input class="text_input text_input_right" data-val="true" data-val-length="Last name may not be longer than 100 characters" data-val-length-max="100" data-val-regex="Last name must contain characters and spaces only" data-val-regex-pattern="^[a-zA-Z ]+$" data-val-required="Error: Last name must be provided" id="LastName" maxlength="100" name="LastName" placeholder="Last Name" type="text" value="" />
+                                            <input class="text_input" data-val="true" data-val-length="Error: Zip Code may not be longer than 20 characters;" data-val-length-max="20" data-val-regex="Error: Invalid ZIP Code" data-val-regex-pattern="^\d{5}(-\d{4})?$" data-val-required="Error: ZIP code must be provided" id="Zipcode" maxlength="10" name="Zipcode" placeholder="Zip Code" type="text" value="" />
+                                            <input class="text_input text_input_right" data-val="true" data-val-length="Error: Phone number may not be longer than 20 characters;" data-val-length-max="20" data-val-required="Error: Phone number must be provided." id="PhoneNumber" maxlength="20" name="PhoneNumber" placeholder="Phone Number" type="text" value="" />
+                                            <input class="text_input <!-- text_input_right -->" data-val="true" data-val-email="Error: Valid email address must be provided" data-val-length="Email address may not be longer than 500 characters" data-val-length-max="500" data-val-required="Error: Valid email address must be provided" id="Email" maxlength="500" name="Email" placeholder="Email Address" type="text" value="" />
+                                            <input class="text_input" data-val="true" data-val-length="Error: Unique Code may not be longer than 20 characters;" data-val-length-max="20" data-val-required="Error: Unique Code is required" id="RegistrationCode" maxlength="20" name="RegistrationCode" placeholder="Registration Code" type="text" value="" />
+                                            <input class="text_input text_input_right" data-val="true" data-val-length="Error: UPC Code may not be longer than 50 characters;" data-val-length-max="50" data-val-required="Error: UPC Code is required" id="UPCCode" maxlength="20" name="UPCCode" placeholder="UPC Code" type="text" value="" />
+                                            <input class="text_input" data-val="true" data-val-length="Error: Store name may not be longer than 150 characters;" data-val-length-max="150" data-val-required="Error: Store name is required" id="StoreName" maxlength="150" name="StoreName" placeholder="Store Name" type="text" value="" />
+                                            <div class="check_box">
+                                                <p><label>
+                                                    <input data-val="true" data-val-brequired="Error: You must agree to the terms and conditions of this offer" id="Terms" name="Terms" type="checkbox" value="true" /><input name="Terms" type="hidden" value="false" />I have read and agree to the <a href="#">Terms and Conditions</a> of this offer.
+                                                </label></p>
+                                                <p><label>
+                                                    <input data-val="true" data-val-required="The OptInFrontera field is required." id="OptInFrontera" name="OptInFrontera" type="checkbox" value="true" /><input name="OptInFrontera" type="hidden" value="false" />I would like to join the Little Black Dress email list.
+                                                </label></p>
+                                                <p><label>
+                                                    <input data-val="true" data-val-required="The OptInTRCo field is required." id="OptInTRCo" name="OptInTRCo" type="checkbox" value="true" /><input name="OptInTRCo" type="hidden" value="false" />I would like to join the TLC email list.
+                                                </label></p>
+                                                <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li></ul>
+                                                </div>
+                                            </div>
+                                            <div class="submit_btn">
+                                                <div class="submit_btn_in">
+                                                    <input name="" type="submit" value="Submit" class="sub_btn">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="offer-container"> 
+                <!-- API ERROR GOES HERE  -->
+                <p style="font-size: 14px">Error: Sorry, currently there are no Beauty Treatment offers in your preferred area. Don’t worry! <a style="color: #000" href="notify_me.html"> Click here</a> and we will find you one.</p>
+                <h2>Please select your reward below!</h2>
+                <br>
+                <p style="font-size: 14px">*Limit one (1) reward per Customer name/email address/booking group. Reward subject to availability. The value and types of rewards will vary dependent on the vendor fulfilling the reward. </p>
+                <br>
+                <br>
+                <br>
+                  <div class="offer-description">
+                    <!-- description placeholder goes here --> 
+                    <p>Beauty Boutique</p> 
+                    <p>12345 Main Street, City, State, 12345</p>
+                    <br>
+                    <a style="font-style: bold; font-size: 22px" class="select-link" href="#" class="btn btn-default submit-form select-offer-btn">Select</a>
+                    <br>
+                    <br>
+                    <hr>
+                  </div>
+                  <div class="offer-description">
+                    <!-- description placeholder goes here --> 
+                    <p>Beauty Boutique</p> 
+                    <p>12345 Main Street, City, State, 12345</p>
+                    <br>
+                    <a style="font-style: bold; font-size: 22px" class="select-link" href="#" class="btn btn-default submit-form select-offer-btn">Select</a>
+                    <br>
+                    <br>
+                    <hr>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer_container">
+            <div class="footer_in">
+                <div class="footer_left">
+                    <p>Questions? <a style="font-color: black" href="mailto:mywinerewards@rewardrequest.com">Email</a> or call us at <a href="tel:+16179390372" class="tx_no">617-939-0372</a> Monday through Friday 9AM – 6PM ET
+                        (excluding public holidays).</p>
+                    <p>Excelsior Wines, Old Brookville, NY</p>
+                      <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+                </div>
+                <div class="footer_right">
+                    <ul>
+                        <li><a href="http://www.tlcmarketing.com/" target="_blank"><img id="powered" src="images/PoweredByTLC.png" style="width: 180px" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script type='text/javascript'>
+            //<![CDATA[
+
+            var jq = $.noConflict();
+            jq(document).ready(function () {
+                jq(".nav-button").click(function () {
+                    jq(".nav-button,.primary-nav").toggleClass("open");
+                });
+
+            });
+        </script>
+        <script type="text/javascript" src="jquery.validate.min.js"></script>
+        <script type="text/javascript" src="jquery.validate.unobtrusive.min.js"></script>
+        <script src="jquery.unobtrusive-ajax.min.js"></script>
+        <script type="text/javascript" src="formVal.js"></script>
+        <script>
+            $(function () {
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1500);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+<!--         <script type="text/javascript" src="/Scripts/jquery-1.2.6.pack.js"></script>
+        <script type="text/javascript" src="/Scripts/ddaccordion.js"></script>
+        <script type="text/javascript" src="/Scripts/expandable.js"></script> -->
+    </body>
+</html>

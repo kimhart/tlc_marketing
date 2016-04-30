@@ -1,0 +1,57 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  background-color: #809fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  background: #FFFFFF;
+  color: #000000;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  padding: 30px;
+  margin-top: 20px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container h2, .container h1 {
+  text-align: center;
+}
+
+.container h3 {
+  color: #809fff ;
+}
+.puppy-name-container {
+  margin-top: 30px;
+}
+
+#puppy-button {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+  color: #FFFFFF;
+  background-color: #7fbb00;
+  border: 0;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+img {
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+

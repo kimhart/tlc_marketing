@@ -1,0 +1,221 @@
+body {
+  background-color: #FFF;
+  color: #000;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.active-container {
+  margin: 0 auto;
+  display: block;
+  max-width: 960px;
+  background-color: #FFF;
+}
+
+.container {
+  width: 100%;
+}
+
+#kaspersky-logo {
+  margin-bottom:10px;
+  float: right;
+}
+
+.footer-div {
+  padding: 10px 10px 0px 10px;
+  margin: 40px 0 40px 0;
+}
+
+.footer-container {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+p.footer {
+  font-size: 13px;
+  text-align: left;
+}
+
+
+a.footer {
+  text-decoration: underline;
+  color: #006d55;
+}
+
+.powered-by {
+  float: right;
+  width: 170px;
+  height: auto;
+}
+
+.nav-fun {
+  margin-top: 30px;
+}
+
+ul.nav-bar {
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding-left: 0;
+  float: left;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.nav-bar li {
+  list-style-type: none;
+}
+
+.nav-bar li a {
+  text-transform: uppercase;
+  color: #006d55;
+  text-decoration: none;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar li a.home-nav-tab {
+  padding-left: 0;
+} 
+
+.nav-bar li a:hover {
+  color: #006d55;
+}
+
+li.selected a {
+  color: #006d55;
+}
+
+a {
+  color: #006d55;
+  text-decoration: underline;
+}
+
+
+h1 {
+  text-align: center;
+  color: #006d55;
+  text-transform: uppercase;
+  padding: 50px;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+p.faq-header {
+  color: #000;
+  padding: 30px 0 15px 0;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+p.terms-header {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+p.terms-header-2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.terms-container, .privacy-container, .faq-container {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.faq-question {
+  margin-bottom: 15px;
+  color: #006d55;
+  font-weight: 900;
+}
+
+.faq-answer {
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.background {
+  display: block;
+}
+
+.get-started {
+  display: block;
+  margin-top: 550px;
+
+}
+
+#background_cycler{
+  padding:0;
+  margin:0;
+  width: 100%;
+  position:relative;
+  display: block;
+}
+
+#background_cycler img {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  z-index:2;
+  padding: 0;
+  margin: 0;
+}
+
+#background_cycler img.active-image{
+  z-index:3;
+  width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .get-started {
+    margin-top: 500px;
+  }
+}
+
+
+
+
+
+@media (max-width: 830px) {
+  .get-started {
+    margin-top: 450px;
+  }
+}
+
+
+
+
+@media (max-width: 720px) {
+  .get-started {
+    margin-top: 400px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

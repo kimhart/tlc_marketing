@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Receipts</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Pepperidge Farm">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <!--   Bootstrap/ CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="Stylesheet" href="../css/style.css">
+  <!-- Bootstrap/ JS -->
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+</head>
+<body>
+  <div class="active">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 header-buffer"></div>
+      </div>
+      <div class="row header-row">
+        <div class="col-md-2 logo">
+          <a href="index.html"><img id="pf-logo" src="../images/PFlogo.png"></a>
+        </div>
+        <div class="col-md-10">
+          <div class="nav-div">
+            <ul class="navbar">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="get_started.html">Get Started</a></li>
+              <li><a href="participating_breads.html">Participating Breads</a></li>
+              <li><a href="upload_receipts.html">Upload Receipts</a></li>
+              <li><a href="redeem.html">Redeem</a></li>
+              <li class="faq-li"><a href="faq.html">FAQ</a></li>
+              <span class="rwd-line">
+                <li class="float-right float-right-margin"><a href="signup.html" class="signup-btn">Signup</a></li>
+                <li class="float-right"><a href="login.html" class="login-btn" >Login</a></li>
+              </span>
+            </ul>
+             <!-- COUNTER here is based on how many times they've uploaded (not coming from a db or keeping track of their valid receipts.) -->
+            <p class="receipt-counter"><span style="font-weight: 400; color: #990000">Welcome [name]</span>, you only need [number] more qualified products to redeem your reward!<p>
+          </div>
+        </div>
+      </div> <!-- header -->
+      <div class="row">
+        <div class="col-md-12 page-title upload-receipts">
+          <h1>Upload Receipts</h1>
+          <img class="red-underline" src="../images/underline.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 upload-copy"> 
+          <p>Complete your registration by uploading and submitting your receipt(s) by 11:59 PM PT on 7/1/16. Don’t forget to circle the qualifying items, date, and time of purchase on your receipt.</p>
+          <br>
+          <p>Please also make sure the picture of your receipt is <strong>legible</strong> and shows the required information (date, time, and qualifying products). If we cannot read your receipt, it will not count towards the 3 loaf requirement. You are allowed one resubmission per receipt that is deemed illegible. <br>You must resubmit all receipts by 11:59PM PT 7/1/16.</p>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-default submit-form">Upload</button>
+         <!-- INSERT some sort of if statement that changes button text to 'submit' when all receipts have been uploaded -->
+        </div>
+          </form>
+        </div>
+      </div>
+      <div class="row footer-margin footer-margin-extra">
+        <div class="col-md-12 footer">
+          <p>Questions? <a href="mailto:PepperidgeFarmReward@rewardrequest.com">Email</a> us or call us at (617) 939-0392 Monday through Friday 9AM – 6PM ET, excluding public holidays.</p>
+          <p>&copy; 2016 Pepperidge Farm, Incorporated</p>
+          <p><a href="privacy_policy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a>
+          <a href="http://www.tlcmarketing.com/"><img class="powered-by" src="../images/PoweredByTLC.png"></a></p>
+        </div>
+      </div>
+    </div> <!-- container fluid -->
+  </div> <!--  active -->
+</body>
+</html>
