@@ -9,9 +9,11 @@ Microsites (both live and front-end staging links) for a range of rewards progra
 
 ### Banfi Wines
 
-[Gran Reserva (Staging Link](http://trcomarketingstaging.com/granreserva/gran_reserva/)
+[My Wine Rewards](https://mywinerewards.com/agegate)
 
-[Little Black Dress (Staging Link)](http://trcomarketingstaging.com/littleblackdress/lbd/)
+[Gran Reserva](http://trcomarketingstaging.com/granreserva/gran_reserva/)
+
+[Little Black Dress](https://mywinerewards.com/littleblackdress)
 
 
 ### Carrera Eyewear
