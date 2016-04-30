@@ -1,10 +1,10 @@
 # TLC Marketing Projects
 
-Microsites (both live and front-end staging links) for a range of rewards programs.
+Front-end of microsites for a range of client rewards programs. 
 
 ### Pepperidge Farm
 
-[Staging Link](https://www.pepperidgefarmreward.com/)
+[Pepperidge Farm Rewards](https://www.pepperidgefarmreward.com/)
 
 
 ### Banfi Wines
