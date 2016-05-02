@@ -27,13 +27,17 @@ body {
 
 .question {
   text-align: left;
-  color: rgb(0, 119, 191);
+  color: #0072bc;
   margin-top: 30px;
+}
+
+.less-margin {
+  margin-top: 15px;
 }
 
 .question-top {
   text-align: left;
-  color: rgb(0, 119, 191);
+  color: #0072bc;
 }
 
 a {
@@ -51,4 +55,11 @@ p {
 .middle {
   width: 650px;
   height: auto;
+}
+
+.stat {
+  width: 650px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }

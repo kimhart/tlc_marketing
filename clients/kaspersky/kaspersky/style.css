@@ -1,7 +1,8 @@
 body {
   background-color: #FFF;
   color: #000;
-  font-family: arial;
+  font-family: 'Museo Sans';
+  font-weight: 300;
   font-size: 14px;
 }
 
@@ -19,6 +20,9 @@ body {
 #kaspersky-logo {
   margin-bottom:10px;
   float: right;
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-left: 0;
 }
 
 .footer-div {
@@ -32,11 +36,15 @@ body {
   display: block;
 }
 
+a {
+  text-decoration: underline;
+  color: #006d55;
+}
+
 p.footer {
   font-size: 13px;
   text-align: left;
 }
-
 
 a.footer {
   text-decoration: underline;
@@ -50,7 +58,11 @@ a.footer {
 }
 
 .nav-fun {
-  margin-top: 30px;
+  margin: 20px auto;
+  margin-top: 40px;
+  width: 97%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 ul.nav-bar {
@@ -97,8 +109,8 @@ h1 {
   text-align: center;
   color: #006d55;
   text-transform: uppercase;
-  padding: 50px;
-  font-family: "museo-sans",sans-serif;
+  padding: 50px 0 0 0;
+  font-family: 'Museo Sans';
   font-weight: 900;
   font-size: 28px;
 }
@@ -124,7 +136,7 @@ p.terms-header-2 {
 }
 
 .terms-container, .privacy-container, .faq-container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   display: block;
 }
@@ -154,8 +166,9 @@ p.terms-header-2 {
   padding:0;
   margin:0;
   width: 100%;
-  position:relative;
+  position: relative;
   display: block;
+  z-index: 2;
 }
 
 #background_cycler img {
@@ -163,7 +176,7 @@ p.terms-header-2 {
   left:0;
   top:0;
   width:100%;
-  z-index:2;
+  z-index:1;
   padding: 0;
   margin: 0;
 }
@@ -173,7 +186,124 @@ p.terms-header-2 {
   width: 100%;
 }
 
+.row {
+  height: auto;
+}
 
+.green-box {
+  background-color: #e0f0ed;
+  min-height: 300px ;
+  height: auto;
+}
+
+.white-box {
+  background-color: #FFF;
+  min-height: 300px ;
+  height: auto;
+}
+
+ol.get-started-list {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  counter-reset: li;
+  padding-bottom: 30px; 
+}
+
+ol.get-started-list > li {
+  position: relative;
+  list-style-position: outside;
+  margin:0 0 6px 2em;
+  list-style: none;
+}
+
+ol.get-started-list > li:before {
+  content: counter(li);
+  counter-increment:li;
+  position: absolute;
+  color: #006d55;
+  top:-2px;
+  left:-2em;
+  font-size: 18px;
+  font-weight:bold;
+  text-align:center;
+}
+
+p.get-started-p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.get-started-h2 {
+  color: #006d55;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.bump-50 {
+   margin-top: 50px;
+}
+
+.bump-40 {
+  margin-top: 40px;
+}
+
+.bump-30 {
+  margin-top: 30px;
+}
+
+.bump-20 {
+  margin-top: 20px;
+}
+
+.bump-0 {
+  margin-top: 0;
+}
+
+.get-started-image-left {
+  margin: 0 auto;
+  display: block;
+  width: 75%;
+}
+
+.get-started-image-right {
+  margin: 0 auto;
+  display: block;
+  width: 75%;
+}
+
+.get-started-button {
+  color: #FFF;
+  background-color: #ed1c24;
+  text-transform: uppercase;
+  border: none;
+  border-radius: none;
+  font-size: 20px;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+.seven {
+  margin-left: 0;
+}
+
+.get-started-button:hover {
+  color: #FFF;
+  background-color: #d2171e;
+  cursor: pointer;
+}
+
+.get-started-bottom {
+  margin-bottom: 80px;
+}
 
 
 
