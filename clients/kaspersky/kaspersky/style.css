@@ -41,6 +41,11 @@ a {
   color: #006d55;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #006d55;
+}
+
 p.footer {
   font-size: 13px;
   text-align: left;
@@ -305,6 +310,12 @@ p.get-started-p {
   margin-bottom: 80px;
 }
 
+p.redeem-p {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
 
 
 
