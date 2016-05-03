@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "Pressura";
+    src: url(fonts/GT-Pressura-regular.otf);
+}
+
+
 body {
   background-color: #000;
   color: #FFF;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
+  font-family: "Pressura";
+  font-weight: 300;
   font-size: 14px;
 }
 
@@ -33,7 +39,7 @@ body {
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   text-transform: uppercase;
   color: #FFF;
   text-align: center;
@@ -43,7 +49,7 @@ h1 {
 
 
 h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Pressura";
   font-weight: 300;
   color: #FFF;
   text-align: center;
@@ -53,7 +59,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   color: #d1242a;
   font-size: 16px;
   text-align: center;
@@ -83,7 +89,7 @@ ul.nav-bar {
 .nav-bar li a {
   text-transform: uppercase;
   color: #FFF;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   font-weight: 400;
   text-decoration: none;
   margin-left: 40px;
@@ -174,7 +180,7 @@ a.footer {
 }
 
 .terms-link {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Pressura";
   font-weight: 200;
   font-size: 14px;
   color: #d1242a;
@@ -207,7 +213,7 @@ a.footer {
   height: 45px;
   margin: 10px auto;
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   font-size: 20px;
   font-weight: 400;
   color: #FFF;
@@ -220,7 +226,7 @@ a.footer {
   border-radius: 5px;
   width: 150px;
   height: 35px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   font-size: 18px;
   font-weight: 400;
   color: #FFF;
@@ -235,7 +241,7 @@ a.footer {
   border-radius: 5px;
   width: 150px;
   height: 35px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   font-size: 18px;
   font-weight: 400;
   color: #FFF;
@@ -262,7 +268,7 @@ p.modal-p {
 }
 
 h3.modal-h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Pressura";
   color: #d1242a;
   margin-bottom: 20px;
   font-size: 24px;
