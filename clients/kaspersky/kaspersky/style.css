@@ -314,11 +314,166 @@ p.get-started-p {
 p.redeem-p {
   text-align: center;
   width: 40%;
-  margin: 0 auto;
+  margin: 30px auto;
   display: block;
 }
 
+h2.redeem-h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #006d55;
+  text-align: center;
+}
 
+.margin {
+  margin-top: 40px;
+}
+
+.confirm-h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #006d55;
+  text-align: center;
+}
+
+.form-container {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  margin-bottom: 90px;
+}
+
+.confirm-h2-top {
+  margin-top: 40px;
+}
+
+.form-container input {
+  margin: 10px 10px 5px 0px;
+  color: #000;
+  outline: none;
+}
+
+select.form-control {
+  margin-left: 0px;
+  color: #939393;
+  background-color: #FFF;
+  margin-top: 10px;
+  height: 2.6em;
+  border-radius: 10px;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;   
+   -webkit-border-radius: 0;  /* Safari 3-4, iOS 1-3.2, Android 1.6- */    
+   -moz-border-radius: 0;  /* Firefox 1-3.6 */     
+   border-radius: 0;
+}
+
+.form-container label {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  color: gray;
+}
+
+p.form-p {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  width: auto;
+}
+
+.submit-button {
+  width: auto;
+}
+
+.select-button {
+  margin-top: 50px;
+  font-size: 14px;
+  width: auto;
+}
+
+.rewards-div {
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  align-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.reward-logo {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  margin-top:40px;
+  display: block;
+
+}
+
+p.reward-name {
+  margin-top: 55px;
+  color: #006d55;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+}
+
+.reward-green {
+  margin-top: 40px;
+  height: auto;
+}
+
+.red-arrow {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  position:relative;
+  bottom:30px;
+}
+
+.red-arrow-2 {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  position:relative;
+  top: 65px;
+}
+
+.submit-back-button {
+  width: auto;
+  display: inline-block;
+}
+
+.back-arrow {
+  height: 40px;
+  width: auto;
+  padding-bottom: 8px;
+}
+
+.buttons-inline {
+  margin: 0 auto;
+  display: flex;
+  width: 35%;
+  justify-content: center;
+}
+
+.right-arrow {
+  height: 50px;
+}
 
 
 

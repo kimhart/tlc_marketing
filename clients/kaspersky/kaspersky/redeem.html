@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kaspersky Rewards — Redeem</title>
+  <title>Kaspersky Rewards - Redeem</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='shortcut icon' href='images/favicon.jpg' type='image/jpg'/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
   <link rel="stylesheet" href="style.css">
@@ -40,18 +41,168 @@
         </div>
         <div class="row">
           <div class="twelve columns green-box">
-            <div class="five columns">
-              <img src="images/health.jpg" class="get-started-image-left">
+            <p class="form-p">All fields required.</p>
+            <form class="form-horizontal" role="form">
+              <div class="row form-container">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                </div>
+                 <div class="col-md-6">
+                  <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                </div>                  
+                <div class="col-md-12"> 
+                  <input type="text" class="form-control" id="address1" placeholder="Address 1">
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" id="address2" placeholder="Address 2">
+                </div>
+                 <div class="col-md-4">
+                  <input type="text" class="form-control" id="city" placeholder="City">
+                </div> 
+                <div class="col-md-4">
+                   <select class="form-control" id="state" placeholder="State">
+                    <option disabled selected value>State</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control" id="city" placeholder="Country">
+                </div> 
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="postal_code" placeholder="Postal Code">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="DOB" placeholder="DOB (MM/DD/YYYY)">
+                  <label name="DOB" for="DOB">Must be 18 years of age or older.</label>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="email" placeholder="Email Address">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="col-md-12 unique-code">
+                  <input type="text" class="form-control" id="uniquecode" placeholder="Unique Code">
+                </div>
+              </div>
             </div>
-            <div class="seven columns">
-              <h2 class="get-started-h2 bump-20">One Free Health & Wellness Session</h2>
-              <p class="get-started-p">Depending on your area, this Reward may include 7, 14 or 30 day gym trial membership, one personal training session, one Yoga class, one Pilate's class, one roller skating pass, 5 digital fitness classes, a nutritional consultation or additional sports lessons depending on the participating fitness facility or independent location near you.
-              <br><br>
-              <em>(Digital Fitness classes available in United States & Canada; All other rewards available in the Continental United States Only.)</em></p>
-              <button class="get-started-button">Redeem</button>
+            <img src="images/red-arrow.png" class="red-arrow">
+            <div class="col-md-12">
+              <h2 class="redeem-h2">Please take the optional survey below before applying for your reward!</h2>
+              <p class="app-question">1.  What factors influenced your decision to renew your Kaspersky Lab software? Check all that apply.</p>
+              <input type="radio" name="question1" value="I can count on the quality & features of the product" checked>&nbsp; &nbsp;I can count on the quality & features of the product<br>
+              <input type="radio" name="question1" value="It is a brand I know & trust">&nbsp; &nbsp;It is a brand I know & trust<br>
+              <input type="radio" name="question1" value="I received a recommendation from trusted source">&nbsp; &nbsp;I received a recommendation from trusted source<br>
+              <input type="radio" name="question1" value="The renewal price was right">&nbsp; &nbsp;The renewal price was right.<br>
+              <input type="radio" name="question1" value="I like the rewards program">&nbsp; &nbsp;I like the rewards program<br>
+              <br>
+              <br>
+              <p class="app-question">2.  Tell us about yourself!</p>
+              <input type="radio" name="question2" value="Male" checked>&nbsp; &nbsp;Male<br>
+              <input type="radio" name="question2" value="Female">&nbsp; &nbsp;Female<br>
+              <br>
+              <br>
+              <p class="app-question">3. I am:</p>
+              <input type="radio" name="question3" value="An active student enrolled in continuing education" checked>&nbsp; &nbsp;An active student enrolled in continuing education<br>
+              <input type="radio" name="question3" value="Have completed high school and am employed">&nbsp; &nbsp;Have completed high school and am employed<br>
+              <input type="radio" name="question3" value="Have completed college (Bachelor degree) and am employed">&nbsp; &nbsp;Have completed college (Bachelor degree) and am employed<br>
+              <input type="radio" name="question3" value="Have completed post-graduate education (Master degree or doctorate) and am employed">&nbsp; &nbsp;Have completed post-graduate education (Master degree or doctorate) and am employed<br>
+              <input type="radio" name="question3" value="Unemployed">&nbsp; &nbsp;Unemployed<br>
+              <input type="radio" name="question3" value="Retired">&nbsp; &nbsp;Retired<br>
+              <br>
+              <br>
+              <p class="app-question">4.  How would you evaluate your computer skills?</p>
+              <input type="radio" name="question4" value="Beginner - I do not know much about computers and often have to ask more advanced users for help" checked>&nbsp; &nbsp;Beginner - I do not know much about computers and often have to ask more advanced users for help<br>
+              <input type="radio" name="question4" value="User - I know basic things about computers, I only use it for my needs">&nbsp; &nbsp;User - I know basic things about computers, I only use it for my needs<br>
+              <input type="radio" name="question4" value="Advanced user - I am interested in computers and try to learn more about them. I know some things that average users do not">&nbsp; &nbsp;Advanced user - I am interested in computers and try to learn more about them. I know some things that average users do not<br>
+              <input type="radio" name="question4" value="I am an IT specialist - I know a lot about computers and continue to learn more">&nbsp; &nbsp;I am an IT specialist - I know a lot about computers and continue to learn more<br>
+              <br>
+              <br>
+              <p class="app-question">5.  How many hours per week do you spend accessing the Internet?</p>
+              <input type="radio" name="question5" value="Less than 5 hours" checked>&nbsp; &nbsp;Less than 5 hours<br>
+              <input type="radio" name="question5" value="5-9 hours">&nbsp; &nbsp;5-9 hours<br>
+              <input type="radio" name="question5" value="10-19 hours">&nbsp; &nbsp;10-19 hours<br>
+              <input type="radio" name="question5" value="20-29 hours">&nbsp; &nbsp;20-29 hours<br>
+              <input type="radio" name="question5" value="30 hours or more">&nbsp; &nbsp;30 hours or more<br>
+              <br>
+              <br>
+              <input class="app-question" type="checkbox" name="terms" value="true">&nbsp; &nbsp;Yes, I have read and agree to the <a href="terms.html">Terms and Conditions</a> and <a href="privacy.html">Privacy Policy</a>
+              <br>
+              <input class="app-question" type="checkbox" name="TLC" value="true">&nbsp; &nbsp;Yes, I would like to be informed about future rewards like this from TLC Marketing
+              <br>
+              <br>
+              <br>
+              <button class="get-started-button submit-button">Submit</button>
             </div>
-          </div>
+          </form>
         </div>
+        <img src="images/red-arrow.png" class="red-arrow-2">
+        <div class="row green-box reward-green">
+        <h2 class="redeem-h2">Now select your reward below!</h2>
+          <div class="rewards-div"> <!-- this gets filled in by API, samples included below: -->
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="reward-logo" src="images/sample_logo.png">
+                </div>
+                <div class="col-md-4">
+                  <p class="reward-name">Canvas Photo Print</p>
+                </div>
+                <div class="col-md-4">
+                  <button class="get-started-button submit-button select-button"><a style="text-decoration: none; color: #FFF" href="confirm.html">Select</a></button>
+                </div>
+              </div>
+              <hr>
+          </div>
       </div>
       <div class="container">
         <div class"row footer-div">
