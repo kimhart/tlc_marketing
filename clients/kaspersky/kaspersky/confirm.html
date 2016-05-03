@@ -2,9 +2,12 @@
 <html>
 <head>
   <title>Kaspersky Rewards - Confirmation</title>
+  <script src="https://use.typekit.net/sxd3buo.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='shortcut icon' href='images/favicon.jpg' type='image/jpg'/>
+  <link rel='shortcut icon' href='images/favicon.jpg' type='image/jpg'/> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
@@ -45,13 +48,33 @@
         <h2 class="confirm-h2">Reward Selection <img src="images/right-arrow.png" class="right-arrow">&nbsp;&nbsp;<span style="color: #000; font-size: 16px"> Autopopulates </span></h2>
         <div class="buttons-inline">
           <button class="get-started-button submit-button submit-back-button margin"><a style="text-decoration: none; color: #FFF" href="redeem.html"><img src="images/back-arrow.png" class="back-arrow">Back</a></button>
-          <button class="get-started-button submit-button submit-back-button margin">Submit</button>
+          <button class="get-started-button submit-button submit-back-button margin" data-toggle="modal" data-target="#confirmModal">Submit</button>
         </div>
       </div>
     </div>
+    <div id="confirmModal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-h3">Your Reward Details Have Been Sent</h3>
+          </div>
+          <div class="modal-body">
+            <p class="modal-p">Check your email for your reward details! Depending on what reward you selected you will receive either a voucher or a partner code to redeem on the partner website. 
+            <br><br>
+            If you receive a voucher, you must present your voucher upon arrival along with valid photo I.D. Please remember that the person whose name is on the voucher must be present at time of redemption. The voucher expiration date is displayed on the voucher.
+            <br><br>
+            If you receive a partner code to redeem on a partner website, closely follow the redemption instructions provided with that code as well as make note of the expiration date. </p>
+          </div>
+          <div class="modal-footer">
+            <p><em>Make sure to check your spam mail.</em></p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
     <div class"row">
       <div class="ten columns footer-div">
-        <p class="footer">Questions? <a class="footer" href="mailto:kasperskyrewards@rewardrequest.com">Email</a> us or call us at XXXXXXX. Monday through Friday 9AM-6PM ET excluding public holidays.</p>
+        <p class="footer">Questions? <a class="footer" href="mailto:www.KasperskySecureTheFun@rewardrequest.com">Email</a> us or call us at 617-939-0391. Monday through Friday 9AM-6PM ET excluding public holidays.</p>
         <p class="footer"><a class="footer" href="privacy.html">Privacy Policy</a> | <a class="footer" href="terms.html">Terms & Conditions</a></p>
       </div>
       <div class="two columns footer-div">

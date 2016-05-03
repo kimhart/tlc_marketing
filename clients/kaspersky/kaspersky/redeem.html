@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Kaspersky Rewards - Redeem</title>
+  <script src="https://use.typekit.net/sxd3buo.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='shortcut icon' href='images/favicon.jpg' type='image/jpg'/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -28,7 +30,7 @@
             </ul>
           </div>
           <div class="three columns">
-            <a href="index.html"><img class="kaspersky-logo" src="images/logo.png"></a>
+            <a href="index.html"><img id="kaspersky-logo" src="images/logo.png"></a>
           </div>
         </div>
       </div>
@@ -137,7 +139,7 @@
               </div>
             </div>
             <img src="images/red-arrow.png" class="red-arrow">
-            <div class="col-md-12">
+            <div class="col-md-12 quiz">
               <h2 class="redeem-h2">Please take the optional survey below before applying for your reward!</h2>
               <p class="app-question">1.  What factors influenced your decision to renew your Kaspersky Lab software? Check all that apply.</p>
               <input type="radio" name="question1" value="I can count on the quality & features of the product" checked>&nbsp; &nbsp;I can count on the quality & features of the product<br>
@@ -188,27 +190,24 @@
         </div>
         <img src="images/red-arrow.png" class="red-arrow-2">
         <div class="row green-box reward-green">
-        <h2 class="redeem-h2">Now select your reward below!</h2>
-          <div class="rewards-div"> <!-- this gets filled in by API, samples included below: -->
-              <div class="row">
-                <div class="col-md-4">
-                  <img class="reward-logo" src="images/sample_logo.png">
-                </div>
-                <div class="col-md-4">
-                  <p class="reward-name">Canvas Photo Print</p>
-                </div>
-                <div class="col-md-4">
-                  <button class="get-started-button submit-button select-button"><a style="text-decoration: none; color: #FFF" href="confirm.html">Select</a></button>
-                </div>
+          <h2 class="redeem-h2">Now select your reward below!</h2>
+            <div class="row rewards-div"> <!-- this gets filled in by API, samples included below: -->
+              <div class="col-md-4 shrink">
+                <img class="reward-logo" src="images/sample_logo.png">
               </div>
-              <hr>
-          </div>
-      </div>
+              <div class="col-md-4 shrink">
+                <p class="reward-name">Canvas Photo Print</p>
+              </div>
+              <div class="col-md-4 shrink">
+                <button class="get-started-button submit-button select-button reward-button"><a style="text-decoration: none; color: #FFF" href="confirm.html">Select</a></button>
+              </div>
+            </div>
+        </div>
       <div class="container">
         <div class"row footer-div">
           <div class="twelve columns footer-div">
             <p class="footer">*Free reward is offered with select, qualifying renewals and/or upgrades of Kaspersky Lab software between 5/23/16 and 10/15/16 is required. Reward valid while supplies last and is subject to promotional availability. Limit of one (1) reward per customer name, per customer household, per customer booking group. The value and types of rewards will vary depending on the geographic location and vendor fulfilling the reward. Partner restrictions apply. Unique Reward Codes are not valid after 11:59PM PT on 10/15/16. Voucher Rewards (Fun Pass and Health & Wellness) and Rhapsody valid in the continental United States (excluding U.S. territories) only. SmileBooks & Digital Fitness Classes are valid in the Continental United States (excluding U.S. territories) and Canada. Reward is non-transferable and has no cash value. Void if transferred, sold, auctioned, photocopied or otherwise altered and where prohibited or restricted by law. Must be eighteen (18) years of age or older to redeem. Credit card may be required to receive Reward. Additional Reward specific restrictions as well as promotional terms and conditions apply. See <a href="terms.html">Terms and Conditions</a> for complete details.</p>
-            <p class="footer">Questions? <a class="footer" href="mailto:kasperskyrewards@rewardrequest.com">Email</a> us or call us at 617-939-0382 (US) or 1-855-292-1926 (Canada). Monday through Friday 9AM-6PM ET excluding public holidays.</p>
+            <p class="footer">Questions? <a class="footer" href="mailto:www.KasperskySecureTheFun@rewardrequest.com">Email</a> us or call us at 617-939-0391. Monday through Friday 9AM-6PM ET excluding public holidays.</p>
             <p class="footer"><a class="footer" href="privacy.html">Privacy Policy</a> | <a class="footer" href="terms.html">Terms & Conditions</a></p>
             <a href="http://tlcmarketing.com/"><img class="powered-by" src="images/poweredbyTLC.png"></a>
           </div>

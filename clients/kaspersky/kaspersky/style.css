@@ -2,7 +2,7 @@
 body {
   background-color: #FFF;
   color: #000;
-  font-family: 'Museo Sans';
+  font-family: "museo-sans",sans-serif;
   font-weight: 300;
   font-size: 14px;
 }
@@ -116,7 +116,7 @@ h1 {
   color: #006d55;
   text-transform: uppercase;
   padding: 50px 0 0 0;
-  font-family: 'Museo Sans';
+  font-family: "museo-sans",sans-serif;
   font-weight: 900;
   font-size: 28px;
 }
@@ -142,7 +142,7 @@ p.terms-header-2 {
 }
 
 .terms-container, .privacy-container, .faq-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: block;
 }
@@ -421,7 +421,6 @@ p.form-p {
   float: left;
   margin-top:40px;
   display: block;
-
 }
 
 p.reward-name {
@@ -475,12 +474,73 @@ p.reward-name {
   height: 50px;
 }
 
+p.modal-p {
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
 
+.modal-header {
+  background-color: #006d55;
+}
+
+h3.modal-h3 {
+  color: #FFF;
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.modal-footer {
+  background-color: #e0f0ed;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: auto;
+}
+
+.modal-footer p {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 990px) {
+
+  .form-container {
+    width: 70%;
+  }
+
+  .rewards-div {
+    width: 70%;
+  }
+
+   .quiz {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    font-size: 13px;
+  }
+
+  .reward-logo, .reward-name, .reward-button {
+    width: 30%;
+    float: left;
+  }
+
+}
 
 @media (max-width: 900px) {
   .get-started {
     margin-top: 500px;
   }
+
+   .form-container {
+    width: 70%;
+  }
+
 }
 
 
@@ -503,6 +563,178 @@ p.reward-name {
 }
 
 
+
+
+@media (max-width: 555px) {
+  .get-started {
+    margin-top: 320px;
+  }
+
+   #kaspersky-logo {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+    float: none;
+  }
+
+
+  ul.nav-bar {
+    float: none;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: center
+  }
+
+  .active-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .get-started-image-left, .get-started-image-right {
+    display: none;
+  }
+
+  .get-started-button {
+    margin: 30px auto;
+  }
+
+  .get-started-h2 {
+    margin-top: 20px;
+  }
+
+  .get-started-p {
+    margin: 0 30px 0 30px;
+  }
+
+  .white-box, .green-box {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  p.redeem-p {
+    margin: 20px auto;
+    width: 70%;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .get-started-button.submit-button {
+    margin: 0 auto;
+  }
+
+  .red-arrow-2 {
+    top: 30px;
+  }
+
+  img.reward-logo {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  p.reward-name {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  img.reward-logo {
+    float: none;
+    margin: 10px auto;
+    display: block;
+    width: 60%;
+  }
+
+  .get-started-button.submit-button.select-button.reward-button {
+    float: none;
+    width: 50%;
+    margin: 30px auto;
+    display: block;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .active-container {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .get-started {
+    margin-top: 250px;
+  }
+
+  .get-started-h1 {
+    padding-top: 10px;
+  }
+
+  p.get-started-p {
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .get-started-button {
+    width: auto;
+  }
+
+  .faq-container, .privacy-container, .terms-container {
+    width: 82%;
+  }
+
+  .footer-div {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .two.columns.footer-div {
+    margin: 0;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+  .active-container {
+    width: 100%;
+    margin-left: 2px;
+  }
+
+  .shift {
+    display: block;
+  }
+
+   p.terms-header, p.terms-header-2 {
+    font-size: 14px;
+  }
+
+
+}
+
+@media (max-width: 340px) {
+ .nav-fun li {
+    font-size: 12px;
+  }
+
+  img.reward-logo {
+    width: 80%;
+  }
+
+
+}
 
 
 
