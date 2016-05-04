@@ -66,9 +66,9 @@ a.footer {
 .nav-fun {
   margin: 20px auto;
   margin-top: 40px;
-  width: 97%;
-  padding-right: 10px;
-  padding-left: 10px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 ul.nav-bar {
@@ -208,6 +208,11 @@ p.terms-header-2 {
   height: auto;
 }
 
+ol li {
+ list-style-position: outside;
+ font-size: 14px;
+}
+
 ol.get-started-list {
   width: 75%;
   margin: 0 auto;
@@ -240,6 +245,7 @@ p.get-started-p {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .get-started-h2 {
@@ -252,6 +258,11 @@ p.get-started-p {
   margin-bottom: 0;
   margin-top: 20px;
 }
+
+.bump-60 {
+   margin-top: 60px;
+}
+
 
 .bump-50 {
    margin-top: 50px;
@@ -274,15 +285,17 @@ p.get-started-p {
 }
 
 .get-started-image-left {
-  margin: 0 auto;
   display: block;
-  width: 75%;
+  width: 100%;
+  height: auto;
+  float: left;
 }
 
 .get-started-image-right {
-  margin: 0 auto;
   display: block;
-  width: 75%;
+  width: 100%;
+  height: auto;
+  float: right;
 }
 
 .get-started-button {
@@ -290,15 +303,24 @@ p.get-started-p {
   background-color: #ed1c24;
   text-transform: uppercase;
   border: none;
-  border-radius: none;
+  border-radius: 0;
   font-size: 20px;
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
   display: block;
+  text-align: center;
+  padding: 0 auto;
 }
 
-.seven {
-  margin-left: 0;
+
+.content-right {
+  margin: 0 auto;
+  padding-right: 30px;
+}
+
+.content-left {
+  margin: 0 auto;
+  padding-left: 30px;
 }
 
 .get-started-button:hover {
@@ -551,6 +573,14 @@ h3.modal-h3 {
   .get-started {
     margin-top: 450px;
   }
+
+  .green-box, .white-box {
+    height: auto;
+  }
+
+  .get-started-h2 {
+    margin-top: 0;
+  }
 }
 
 
@@ -604,6 +634,17 @@ h3.modal-h3 {
 
   .get-started-p {
     margin: 0 30px 0 30px;
+  }
+
+  .content-left, .content-right {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-div {
+    margin: 5px;
   }
 
   .white-box, .green-box {
