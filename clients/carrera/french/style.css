@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pressura";
-    src: url(fonts/GT-Pressura-regular.otf);
+    src: url(fonts/GT-Pressura-Regular.otf);
 }
 
 
@@ -23,7 +23,6 @@ body {
   max-width: 960px;
   margin: 0 auto;
   display: block;
-
 }
 
 
