@@ -121,9 +121,17 @@ h1 {
 
 p.faq-header {
   color: #000;
-  padding: 30px 0 15px 0;
   font-family: "museo-sans",sans-serif;
   font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+}
+
+p.faq-header-big {
+  color: #000;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 900;
+  font-size: 18px;
   text-align: center;
 }
 

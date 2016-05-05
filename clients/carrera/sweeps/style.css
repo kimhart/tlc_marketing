@@ -1,0 +1,839 @@
+@font-face {
+    font-family: "Pressura";
+    src: url(fonts/GT-Pressura-Regular.otf);
+}
+
+
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: "Pressura";
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.active {
+  max-width: 960px;;
+  margin: 0 auto;
+  display: block;
+  background-color: #000;
+}
+
+h1 {
+  font-family: "Pressura";
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  margin: 70px 0 10px 0;
+}
+
+
+h2 {
+  font-family: "Pressura";
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 30px 30px 10px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Pressura";
+  color: #d1242a;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+.grand-prize-h2 {
+  margin-bottom: 50px;
+}
+
+.nav-fun {
+  margin-top: 30px;
+}
+
+
+ul.nav-bar {
+  margin-top: 40px;
+  float: right;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.nav-bar li {
+  list-style-type: none;
+}
+
+.nav-bar li a {
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: "Pressura";
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.nav-bar li a:hover {
+  color: #d1242a;
+}
+
+#confirm-modal {
+  height: 300px;
+  width: auto;
+  padding: 20px;
+}
+
+li.selected a {
+  color: #d1242a;
+  border-bottom: 3px solid #d1242a;
+  padding-bottom: 5px
+}
+
+a {
+  color: #d1242a;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+}
+
+a:hover, a:active, a:visited {
+  color: #d1242a;
+  text-decoration: none;
+}
+
+p.question {
+  color: #d1242a;
+  font-style: bold;
+  font-size: 18px;
+  margin: 40px 0 10px 0;
+}
+
+p.splash-headline {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+h1.splash-headline {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.suicide-logo {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.main-home {
+  margin-bottom: 100px;
+
+}
+
+.row-section {
+  margin-bottom: 200px;
+}
+
+
+.main-faq {
+  width: 80%;
+  display: block;
+  margin: 40px auto;
+}
+
+.footer-div {
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 40px
+}
+
+.footer-container {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+#footer-home {
+  background-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+#footer-home p {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+p.footer {
+  font-size: 13px;
+  text-align: left;
+}
+
+
+a.footer {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+.powered-by {
+  float: right;
+  width: 100px;
+  height: auto;
+}
+
+.terms-list li {
+  padding-top: 20px;
+}
+
+.terms-list {
+  margin-bottom: 70px;
+}
+
+.terms-link {
+  font-family: "Pressura";
+  font-weight: 200;
+  font-size: 14px;
+  color: #d1242a;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  margin: 0;
+}
+
+.headlines {
+  float: left;
+  background-color: rgba(0,0,0, 0.7);
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.headlines h1 {
+  font-size: 36px;
+  margin-top: 0;
+  padding: 20px;
+  line-height: 46px;
+}
+
+.home-button {
+  background-color: #d1242a;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 45px;
+  margin: 10px auto;
+  display: block;
+  font-family: "Pressura";
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+
+.submit-button {
+  background-color: #d1242a;
+  border: none;
+  border-radius: 5px;
+  font-family: "Pressura";
+  font-size: 20px;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 30px auto 50px auto;
+  width: 25%;
+  display: block;
+  padding: 10px 20px 10px 20px;
+}
+
+.button-container {
+  margin-bottom: 200px;
+}
+
+p.email {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+p.modal-p {
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+h3.modal-h3 {
+  font-family: "Pressura";
+  color: #d1242a;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.get-started-p {
+  text-align: left;
+  padding: 0;
+  margin-top: 0;
+}
+
+
+
+.app-question {
+  font-size: 16px;
+}
+
+
+.submit-button-app {
+  margin: 30px auto;
+  width: 200px;
+  display: block;
+}
+
+.form-container {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  margin-bottom: 90px;
+}
+
+.form-container input {
+  margin: 20px 20px 5px 0px;
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.last-q {
+  margin-bottom: 40px;
+}
+
+select.form-control {
+  margin-left: 0px;
+  background-color: #000;
+  color: #a6a6a6;
+  margin-top: 20px;
+  border: none;
+  border-bottom: solid 1px white;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;   
+   -webkit-border-radius: 0;  /* Safari 3-4, iOS 1-3.2, Android 1.6- */    
+   -moz-border-radius: 0;  /* Firefox 1-3.6 */     
+   border-radius: 0;
+}
+
+.form-container label {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.example-modal-image {
+  width: 100%;
+}
+
+
+.redeem-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.form-container-2 {
+  width: 100%;
+}
+
+.left-button {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.center-button {
+  display: block;
+  width: 50%;
+  float: right;
+  margin: 40px 30px;
+}
+
+.rewards-div {
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  align-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.reward-logo {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 30px;
+  float: left;
+  margin-top:40px;
+  display: block;
+
+}
+
+.reward-logo-2 {
+  height: 100px;
+  width: auto;
+  margin-top: 0px;
+  margin-left: 50px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.reward-logo-3 {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 90%;
+  height: auto;
+}
+
+
+#go {
+ padding: 10px 10px 10px 40px;
+ width: 20%;
+ cursor: pointer;
+}
+
+#go.home-button.left-button{
+  margin-top: 30px;
+}
+
+.toggle {
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+  width: 120px;
+}
+
+#carrera-logo {
+  margin-top: 20px;
+}
+
+}
+
+
+
+
+@media (max-width: 990px) {
+  .hidden-div {
+    display: none;
+  }
+
+  #carrera-logo {
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+    padding-right: 0;
+  }
+}
+
+
+@media (max-width: 985px) {
+
+  .header {
+    margin: 30px;
+  }
+
+  .nav {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    float: none;
+  }
+
+  .nav-bar {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+  }
+
+  ul.nav-bar {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .nav-bar li a {
+    margin-left: 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-get-started {
+    height: 20px;
+  }
+
+  .get-started-image-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .get-started-copy, .get-started-copy-long, .get-started-copy-short {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+  }
+
+  .hidden-div {
+    display: none;
+  }
+
+  .get-started-image {
+    padding: 20px;
+  }
+
+  .col-md-6, .col-md-12, .col-md-3, .col-md-4, .col-md-5 {
+    padding-left: 0;
+  }
+
+  .active {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  p.footer {
+    font-size: 10px;
+    padding: 20px;
+  }
+
+  .powered-by {
+    width: 20%;
+    padding-bottom: 20px;
+  }
+
+  .submit-button {
+    height: 60px;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 23%;
+    align-content: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+
+  .redeem-image {
+    display: none;
+  }
+
+  #go {
+    width: 110px;
+  }
+
+  .reward-logo {
+    width: 40%;
+    height: auto;
+    padding-left: 30px;
+  }
+
+  .rewards-div {
+    margin: 20px auto;
+    width: 60%;
+    display: block;
+  }
+
+  .submit-button.center-button {
+    margin: 20px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+   .enter-home {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .active-container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 960px) {
+
+  .main-get-started h1{
+    margin-top: 30px;
+  }
+
+  .col-md-4.headlines {
+    float: none;
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+  }
+
+  .col-md-4.headlines h1, .headlines h2, .headlines p {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+  }
+
+  .powered-by {
+    width: 100px;
+  }
+
+  #footer-home {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #carrera-logo {
+    padding-right: 0;
+  }
+
+}
+
+
+@media (max-width: 800px) {
+  .headlines h1 {
+    margin: 0;
+    width: 80%;
+  }
+
+  .col-md-5.redeem-image-container {
+      width: 100%;
+      margin-left: 15px;
+      display: block;
+  }
+
+  p.footer{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 500px) {
+   #carrera-logo {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .col-md-5 {
+      width: 100%;
+    }
+
+    #go {
+      width: 102%;
+      padding-left: 140px;
+      margin-top: 40px;
+      display: block;
+    }
+
+    .break {
+      display: block;
+    }
+
+    .main-privacy {
+      padding: 15px;
+      font-size: 11px;
+    }
+
+    .toggle {
+      margin-right: 20px;
+      margin-top: 15px;
+      width: 120px;
+    }
+
+    .submit-button {
+      width: 100%;
+      margin-left: 10px;
+      margin-top: 60px;
+      align-content: center;
+      font-size: 30px;
+  }
+    #go {
+      width: 65px;
+      padding-left: 20px;
+    }
+
+    .reward-logo, .reward-logo-2 {
+      width: 130px;
+      height: auto;
+      padding-left: 0;
+    }
+
+    .reward-logo-3 {
+      padding-left: 20px;
+    }
+
+    .rewards-div {
+      margin-left: 18px;
+      width: 95%;
+      display: block;
+
+    }
+
+    .submit-button.center-button {
+      margin: 20px;
+      width: 100px;
+      height: 40px;
+      font-size: 16px;
+    }
+
+    .form-container {
+        margin-bottom: 0;
+     }
+
+    .form-container input {
+      margin: 20px 10px 20px 5px;
+    }
+
+    select.form-control {
+      margin-left: 10px;
+    }
+
+    label {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    .row-section {
+      margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .active, .home-container {
+      width: 100%;
+    }
+
+    .get-started-image-container {
+      width: 100%;
+    }
+
+    .hidden-div {
+      display: none;
+    }
+
+    #carrera-logo {
+      width: 50%;
+    }
+
+    .powered-by {
+      margin-top: 50px;
+    }
+
+    .footer-top {
+      margin-top: 10px;
+    }
+
+    .footer-div {
+      padding: 0;
+    }
+
+    .break {
+      display: block;
+    }
+
+    .main-privacy h1, .main-faq h1, .main-redeem h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .submit-button {
+      padding-left: 0;
+    }
+
+    .toggle {
+      margin-right: 20px;
+      margin-top: 15px;
+      width: 100px;
+    }
+
+    .logo-top {
+      margin-top: 30px;
+      margin-left: 50px;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+
+  #go {
+    padding-left: 12px;
+    width: 50px;
+  }
+
+    .reward-logo, .reward-logo-2 {
+      width: 110px;
+      height: auto;
+      margin-left: 40px;
+    }
+
+    .rewards-div {
+      margin-left: 18px;
+      width: 95%;
+      display: block;
+    }
+
+    .submit-button.center-button {
+      margin: 10px;
+      width: 70px;
+      height: 40px;
+      font-size: 16px;
+      padding-left: 5px;
+    }
+
+    .logo-top {
+      margin-top: 30px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
