@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrera Rewards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='shortcut icon' href='images/favicon.ico' type='image/jpg'/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic' rel='stylesheet' type='text/css'>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="active container-fluid">
+    <div class="header">
+      <div class="row nav-fun">
+      <a href="#"><img class="toggle" src="images/toggle.png"></a>
+        <div class="col-md-3">
+          <a href="index.html"><img  id="carrera-logo" src="images/logo.png"></a>
+        </div>
+        <div class="col-md-9">
+          <ul class="nav-bar">
+            <li class="selected"><a href="index.html">Accueil</a></li>
+            <li><a href="get_started.html">D&eacute;marrage</a></li>
+            <li><a href="redeem.html">R&eacute;clamer</a></li>
+            <li><a href="faq.html">Foire aux questions</a></li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- header -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-home">
+          <h1>Application Confirmation</h1>
+          <h3>Please confirm the following email address is correct to receive your Reward Code:</h3>
+          <p class="email">sample.email@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 button-container">
+        <a href="get_started.html"><button class="back-button hvr-grow">Back</button></a>
+      </div>
+      <div class="col-md-6 button-container">
+        <button class="submit-button" data-toggle="modal" data-target="#confirmModal">Confirm</button>
+      </div>
+    </div>
+  <!--   modal -->
+    <div id="confirmModal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-h3">Congratulations!</h3>
+          </div>
+          <div class="modal-body">
+            <p class="modal-p">Please check your email for your additional details. You will receive your Reward Code and instructions on how to redeem.
+            <br>
+            <br>
+            Please note that it could take up to five (5) business days for the Reward Code to be received. <em>**Please ensure to check your spam mail.</em></p>
+          </div>
+          <div class="modal-footer">
+            <p style="font-size: 18px"><a href="#">Click Here</a> to Enter Our Grand Prize Sweepstakes!
+            <p>Win a Grand Prize Trip for two (2) to New York City to see the premiere of
+            <br>
+            Suicide Squad starring Jared Leto!</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class"row">
+      <div class="col-md-10 footer-div">
+       <p class="footer footer-top">Des questions ? Envoyez-nous un <a style="color: #FFF" href="mailto:carrerarewards@rewardrequest.com">courriel</a> ou composez le 1-855-292-1926 (Canada) ou 617-939-0382 (&Eacute;.-U.), du lundi au vendredi de 9 &agrave; 18 h HAE, sauf les jours f&eacute;ri&eacute;s.</p>
+         <p class="footer"><a class="footer" href="privacy.html">Politique de confidentialit&eacute;</a> | <a class="footer" href="terms.html">Conditions g&eacute;n&eacute;rales</a></p>
+      </div> <!-- col-md-10 -->
+      <div class="col-md-2 footer-div">
+        <a href="http://tlcmarketing.com/"><img class="powered-by" src="images/poweredbyTLC.png"></a>
+      </div>
+    </div> <!-- row -->
+  </div> <!-- active -->
+</body>
+</html>
